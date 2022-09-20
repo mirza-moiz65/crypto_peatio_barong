@@ -1,0 +1,9 @@
+---
+0.1.1 |checksum:e6550b18c3fc3871235e2c47b30af5a6de649a1ef7f59e993da68fbec909aae5
+2.4.0 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.0|checksum:ceec76008b95814ee89a8c7d40a803931bb65ba9016bc1ac3ddbb094e0b3464a
+2.4.1 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.2|checksum:aade017e4ae77aa5ed656fc9f9f9a2591fa695073729e9084e2137fa43a95077
+2.4.2 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.2|checksum:9bd8fb28a468a46dbb198fccaa2487f2e30190ae227e2e08e3cd87ba06fcbdbf
+2.4.3 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.2|checksum:5c1008c56e75c22eb179a8bdff64fc13d34520a19f7e47cf994c063a30ad779d
+2.4.4 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.2|checksum:51ccea943b7094e496ce80f3d15ec18188709da7a05e9fff6dd6253b87dbda81
+2.4.5 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:~> 2.4.2|checksum:8d1e30b226fe8da9b1df01c01a58b87f6c6bd0a5baad039fe6cffbf30dc71245
+2.6.0 em-synchrony:~> 1.0,em-websocket:>= 0,eventmachine:>= 0,faraday_middleware:~> 0.13.1,faye:~> 1.2,peatio:>= 2.4.2|checksum:233793ff57e1ce96121a2070f2fb699a2bc57127120c479351514ac09bca4c73

@@ -1,0 +1,4 @@
+---
+0.0.0 jwt:~> 2.1.0,rack:>= 0|checksum:018bff59b00f8214c8cb8f438835e7f2d5295d5fc251d4a95f47746a9b4f4bbe,ruby:>= 2.3.8
+0.1.0 jwt:~> 2.1.0,rack:>= 0|checksum:f070a6aecb4ffe3a5800dd529741b8d91daffc3aaca93220d45c83fbe88424e4,ruby:>= 2.3.8
+0.1.1 jwt:~> 2.2,rack:>= 0|checksum:525ce254c827b23acdee15f27f7e97d62f08d6bd5de28b82fb25ba32aab32a44,ruby:>= 2.3.8

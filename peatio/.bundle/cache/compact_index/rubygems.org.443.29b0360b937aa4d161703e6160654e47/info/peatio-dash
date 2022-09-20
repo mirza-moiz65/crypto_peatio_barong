@@ -1,0 +1,12 @@
+---
+0.1.0 |checksum:1d6cb7be2251f9d9d09b3d2ffb2f6402a3f0996b273dee3a4816063b62e1ff0d
+0.1.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.6.1|checksum:14c30584986127253e85c3e0f6da0023bfee82a28a782cbbf725327f44bf2432
+0.1.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:~> 0.6.3|checksum:6fa125715265c0f1821f5777ca709be6dca9416d5071a60b60ca4a4381771d2a
+2.4.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:e48a0266b5ca7336ae0e2fb21963673130b47e6237d722ff9a5f1205e124ecee
+2.5.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:bdba893e03ed22280d54bb8abe36cf6b4c76ab5efc909f67f493a336919739ee
+2.5.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:75c872bcb5788932e3e70f2c4f6d42fb76eb2c4ae4ed9b36a08babf18a883fb2
+2.5.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:f6d782f20cb94eb6397a3ded738212c8879759d30201737fdbb1031d732a8402
+2.6.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:f9ff9631c204738bf20e930644c8ab268dba1ed848b2fdd3ddd15b7660506eac
+2.6.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:502a4f5baa5abb7b42e43438a77cbb24e91957bc7691977ff1359713f6ac4d29
+2.5.3 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:5de47550f220dde9c42b606f3dc36ba468371d7c89978c4aeedc1541bdbd4c36
+2.5.4 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:ee9d69d81d88e0aafc384893e9f4f98f190411fa6bcd2a6abdede009e50e140a

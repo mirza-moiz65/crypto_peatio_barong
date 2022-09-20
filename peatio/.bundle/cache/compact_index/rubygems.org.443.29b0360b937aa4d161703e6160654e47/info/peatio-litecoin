@@ -1,0 +1,12 @@
+---
+0.1.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.5.0|checksum:43f512379d4c333efa390d97c0c5205d14ef2b7797a8894ea83258f6c48a5d51
+0.2.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.6.1|checksum:2ea37ca9d0a1d3b7bea9499a3e25735033b635919b978a442c11d9688583e251
+0.2.1.pre.alpha activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:~> 0.6.3|checksum:6a49abf30b3aef1045dba16126a53e195a5a43e2072fa3c86f482ec058264db8,rubygems:> 1.3.1
+2.4.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:5c01ee505a9093848f1d54e6b531ad76968aaaa76a10a6318bbe918a4141c21f
+2.5.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:d4867084cb8913e7aca0085efa3f32e87a62eef23e94d20ade794d9f39d5904f
+2.5.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:38f8cf8dbbefe4ec5f897499388388b7b1e94c4f8df806e4193196baf2819cde
+2.5.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:61d057fcf479d4fd84ee96e008ba349cc142279f701d571bdd8ad6749a26bf2d
+2.6.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:1cf135b1a638e77a508fb66c883198f2ef3cbe5432e243bf8a0137c77f966f17
+2.6.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:00343a6ce516f383c921a2acec2fa5f27f67e4d960b0f54b6f55c3966d6477c6
+2.5.3 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:a287fb31a13fe45d50406899c8f81b4705f25383fb82f16996c21c69fa186eab
+2.5.4 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:c486dc29d8560716832e9b232a60fa1dca2c03670b43ec293372a50b7174ad4f

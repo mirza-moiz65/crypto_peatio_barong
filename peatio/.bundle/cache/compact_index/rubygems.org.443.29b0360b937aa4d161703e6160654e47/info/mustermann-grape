@@ -1,0 +1,5 @@
+---
+0.4.0 mustermann:= 0.4.0|checksum:6a3bb1834ec4264d2a1600623cd8b5f12e76969f867cf0dd476e823dca71d3bc,ruby:>= 2.1.0
+1.0.0.beta2 mustermann:= 1.0.0.beta2|checksum:bfdf6f906a9e9d5098a0648c8c427bb3a485b4d80edfc13a77827a72040b9033,ruby:>= 2.1.0,rubygems:> 1.3.1
+1.0.0 mustermann:~> 1.0.0|checksum:f9c3bab00b676b1a028aa894fbd0fffde7c7691891ae7bb0ca1651d9da7bad83,ruby:>= 2.1.0
+1.0.1 mustermann:>= 1.0.0|checksum:00ce12b3df66be33ec4304aa9108fb9e1a0689f2a136c96b51c104684f5c5436,ruby:>= 2.1.0

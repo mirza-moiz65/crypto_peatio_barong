@@ -1,5 +1,0 @@
----
-0.1.0 |checksum:388ed4a05d45e8240316b66e51d78e90d510306ab85f14412594e8416c132a5a
-2.6.0 activesupport:~> 5.2.3,faraday:~> 0.17,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:6b93754003df99dbd81e653140fb467ad70fbd0b18441bcea26f91a518ab389e
-2.6.1 activesupport:~> 5.2.3,faraday:~> 0.17,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:f823a30eb38ec1818b6bb3d1379381e91df7599c87af4a7716b1a339942b0c69
-2.6.2 activesupport:~> 5.2.3,faraday:~> 0.17,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:ef2ad83a27511f6a485f14d55a83b4a8f7e1b20b85ba437a39334a2c603fc749

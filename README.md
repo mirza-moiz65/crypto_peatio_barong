@@ -1,7 +1,10 @@
-# To install
-git clone 
-# Follow the README instructions
-# Configure config/app.yml
-bundle install
-bundle exec rake service:all
-# Open your browser on www.app.local (please it in /etc/hosts)
+ # To install
+git clone https://github.com/mirza-moiz65/crypto_peatio_barong.git
+ # Follow the README instructions
+ Run these lines on command line.
+
+  >bundle install
+
+  >bundle exec rake service:all
+
+# Open your browser on www.app.local (place it in /etc/hosts)

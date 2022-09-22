@@ -1,0 +1,11 @@
+---
+0.1.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.6.1|checksum:3c38b7d18e79c96c566f75454de3278604f46d480d4c409f553ad64aa53c4774
+0.1.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:~> 0.6.3|checksum:e66925705191276ed819f718c9926085b6c034c6ec650a9fcaa2373010bcc591
+2.4.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:d2e107d284ed91c0a1c3c83a2dff6d144466990c0d410f2af9f00a8e747726df
+2.5.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:fc27f7fa4e9957d962eeeed3ec13e9414e37a414101d706e7dfaeb540316437f
+2.5.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:7447e61927fd88c49ef7abde4d2c32186157718deb11dd4252ab80b6ef2c50dc
+2.5.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:d024a541405b8b9b3cfeca9d317ace6979b386f30918e2320cbea8a036f2b025
+2.6.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:e2d5c8319cd61dc2c56c64396ccda88b7de8944d570290049c5a5e7970965253
+2.6.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:3bfbf5ff78d47cdecc80552305e473fcddffd23bdffe89fbe2915da4ef8e487c
+2.5.3 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:63bc5ce096776c2f448f76cd6a98079961575e41688ef6ec6e0da41e6610f9ea
+2.5.4 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,cash-addr:~> 0.2.0,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:363f2cf7da7e34b7a5359c9eafc2446c912a138d38461c1ff210d9cc2a9c9781

@@ -1,0 +1,5 @@
+---
+0.1.0 addressable:>= 2.5.1&~> 2.5,googleauth:~> 0.14,httpclient:< 3.0&>= 2.8.1,mini_mime:~> 1.0,representable:~> 3.0,retriable:< 4.0&>= 2.0,rexml:>= 0,signet:~> 0.14|checksum:da52ecad0f745e207ccdef928d58491dfa7be007f76e8b7cbaf7c037a4d6704f,ruby:>= 2.4
+0.2.0 addressable:>= 2.5.1&~> 2.5,googleauth:~> 0.14,httpclient:< 3.0&>= 2.8.1,mini_mime:~> 1.0,representable:~> 3.0,retriable:< 4.0&>= 2.0,rexml:>= 0,signet:~> 0.14|checksum:286b3f1f93846688736645745f816168c2e9c7ee7788a97ddacd4538ab425aaf,ruby:>= 2.4
+0.2.1 addressable:>= 2.5.1&~> 2.5,googleauth:~> 0.14,httpclient:< 3.0&>= 2.8.1,mini_mime:~> 1.0,representable:~> 3.0,retriable:< 4.0&>= 2.0,rexml:>= 0,signet:~> 0.14,webrick:>= 0|checksum:4efc94daaf4b73f98a746d83823b28e6a3bbbb390ec957726015e9f30fc797a0,ruby:>= 2.4
+0.3.0 addressable:>= 2.5.1&~> 2.5,googleauth:~> 0.14,httpclient:< 3.0&>= 2.8.1,mini_mime:~> 1.0,representable:~> 3.0,retriable:< 4.0&>= 2.0,rexml:>= 0,signet:~> 0.14,webrick:>= 0|checksum:4a04e1daa6397781e5ef289e9dcb9274fbb2d8018ea47869bfa875e97c94a4cb,ruby:>= 2.5

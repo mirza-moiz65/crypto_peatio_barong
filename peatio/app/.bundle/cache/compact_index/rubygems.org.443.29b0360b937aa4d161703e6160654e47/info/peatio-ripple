@@ -1,0 +1,11 @@
+---
+0.1.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.6.1|checksum:86b7543b2390f17352837841853a4308ae6d75ae4fc6ddd5c4673396c3082fb8
+0.1.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,peatio:~> 0.6.1|checksum:0cf06c26858c90ce4ac9a6c6a1c832886ebbf218b96f19bc8aa900453e0cecb0
+0.1.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:~> 0.6.3|checksum:235c1027dda3cfa53c620cc883faf5b701aaa87a93a29f025888a787b65c4403
+2.4.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:68f2b3735740887316cea3dc39c251e7ecb339f5b1300712dcfa587058eef0bb
+2.5.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:cd356e461b1cf8520b5af3df879cc69d7a7c0bf468cbbd674c6285808297af22
+2.5.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:25d1b981e54fbe9e74f1f77b3adf62d07268b3913ab601f407e15b2be48b09fa
+2.5.2 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.15.4,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:4d7945bb5c4587bb267125b91fc44448132ba4b72f407dd80c8cdd5015bd632f
+2.6.0 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:43bec61431d77408fa7c9322551af25148c9ce569d457c1d914e81c6776cc7fc
+2.6.1 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:0322349bd38acbf2be7a92a5dbb2cbbb30bb8db6fff57e15f510e7aa914d7643
+2.5.3 activesupport:~> 5.2.3,better-faraday:~> 1.0.5,faraday:~> 0.17,memoist:~> 0.16.0,net-http-persistent:~> 3.0.1,peatio:>= 0.6.3|checksum:def3d42c5fa564a8a9b1c6454bad722f8e381400eb579130ce57d79d28fd47c6

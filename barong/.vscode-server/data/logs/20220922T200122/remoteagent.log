@@ -1,0 +1,9 @@
+[2022-09-22 20:01:22.608] [remoteagent] [info] Extension host agent started.
+[2022-09-22 20:01:22.612] [remoteagent] [error] getUnixShellEnvironment#errorChildProcess A system error occurred (spawn /sbin/nologin ENOENT)
+[2022-09-22 20:01:22.617] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-09-22 20:01:22.837] [remoteagent] [info] [127.0.0.1][b2464134][ManagementConnection] New connection established.
+[2022-09-22 20:01:22.862] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-09-22 20:01:24.224] [remoteagent] [info] [127.0.0.1][2cfd9595][ExtensionHostConnection] New connection established.
+[2022-09-22 20:01:24.245] [remoteagent] [info] [127.0.0.1][2cfd9595][ExtensionHostConnection] <296> Launched Extension Host Process.
+[2022-09-22 20:01:34.705] [remoteagent] [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)

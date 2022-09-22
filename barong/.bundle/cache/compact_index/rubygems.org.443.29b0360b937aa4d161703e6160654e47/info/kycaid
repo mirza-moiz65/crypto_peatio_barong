@@ -1,0 +1,3 @@
+---
+0.1.0 faraday:>= 0,json:>= 0|checksum:f46ef90cf0f500e47b2fc273293cb4b0f47d66c358b394ce65524453b11b4a99,ruby:>= 2.3.0
+1.0.0 faraday:>= 0,json:>= 0|checksum:e4c6f66e9345f33f80f59b29ea59dfae156b2da72405dff40820eeecdefde78b,ruby:>= 2.3.0

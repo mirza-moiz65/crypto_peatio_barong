@@ -1,0 +1,10 @@
+[user]
+	name = zain-asif-qbatch
+	email = zain.asif@qbatch.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = "!f() { /home/app/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node /tmp/vscode-remote-containers-582cef3bd353c3aa32c7c17c948e723d8e6e119d.js $*; }; f"

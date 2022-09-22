@@ -1,0 +1,7 @@
+[2022-09-22 19:57:33.597] [remoteagent] [info] Extension host agent started.
+[2022-09-22 19:57:33.597] [remoteagent] [error] getUnixShellEnvironment#errorChildProcess A system error occurred (spawn /sbin/nologin ENOENT)
+[2022-09-22 19:57:33.597] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-09-22 19:57:33.798] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-09-22 19:57:33.810] [remoteagent] [info] [127.0.0.1][410ade59][ManagementConnection] New connection established.
+[2022-09-22 19:57:34.305] [remoteagent] [info] [127.0.0.1][0acf2b2b][ExtensionHostConnection] New connection established.
+[2022-09-22 19:57:34.380] [remoteagent] [info] [127.0.0.1][0acf2b2b][ExtensionHostConnection] <357> Launched Extension Host Process.

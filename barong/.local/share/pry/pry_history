@@ -1,0 +1,5 @@
+User.first
+User.first.update(otp: false)
+User.first.update_columns(otp: false)
+User.last
+User.first

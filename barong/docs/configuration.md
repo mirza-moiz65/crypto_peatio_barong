@@ -1,5 +1,5 @@
 # Barong environments overview
-##### This document provides description, defaults and possible values for all environment variables that take a part in app configuration
+##### This document provides description, defaults and possible values for all environment variables that take a part in app configuration and you will be changing this document to override application to interact with your own UI
 
 ### General configuration
 | Env name | Default value | Possible values | Description |
@@ -95,6 +95,7 @@ More details in [twilio configuration](#twilio-configuration)
 | `barong_vault_token` | | any string value | vault access token |
 | `barong_vault_app_name` | barong | any string value | the name of the application, all encryption keys in Vault will be prefixed with this application name |
 
+### Add your app url here
 ### Sentry configuration
 | `barong_sentry_dsn_backend`  | ~ | valid host url | Sentry SDK client key |
 

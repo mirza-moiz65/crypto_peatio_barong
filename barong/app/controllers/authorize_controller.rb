@@ -8,12 +8,35 @@ class AuthorizeController < ActionController::Metal
 
   # /api/v2/auth endpoint
   def authorize
-    # Changed here barong authentication for all APIs
     @restrictions = Rails.cache.fetch('restrictions', expires_in: 5.minutes) { fetch_restrictions }
 
-    response.status = 200
+    # whitelink path
+    unless params[:path] == 'api/v2/barong/identity/users/access'
+      Restriction::CATEGORIES.each do |category|
+        restriction = first_matched_restriction(category)
+        if restriction && category.in?(%w[blacklist maintenance])
+          return deny_access(category, restriction)
+        elsif restriction && category == 'blocklogin' && params[:path] == 'api/v2/barong/identity/sessions'
+          return deny_access(category, restriction)
+        elsif restriction && category == 'whitelist'
+          break
+        end
+      end
+    end
 
-    response.headers['Authorization'] = req.auth # sets bearer token
+    
+    # Added whitelist for checking if API is hittable
+    req = Barong::Authorize.new(request, params[:path]) # initialize params of request
+    check_authorize(req)
+    # checks if request is blacklisted
+    return access_error!('authz.permission_denied', 401) if req.under_path_rules?('block')
+
+    response.status = 200
+    return if req.under_path_rules?('pass') # check if request is whitelisted
+
+    response.headers['Authorization'] = req.auth # sets bearer token if accessed by API keys
+    # Not using bearer token as security must be our first priority and exposing bearer token in headers can lead to
+    # easily accessible APIs by anyone which can lead to many problems
   rescue Barong::Authorize::AuthError => e # returns error from validations
     response.body = e.message
     response.status = e.code
@@ -31,6 +54,12 @@ class AuthorizeController < ActionController::Metal
     if restriction = @restrictions[category]['ip_subnet']&.find { |r| IPAddr.new(r[0])&.include?(request_ip) }  then return restriction end
     if restriction = @restrictions[category]['continent']&.find { |r| r[0]&.casecmp?(continent) }               then return restriction end
     if restriction = @restrictions[category]['country']&.find { |r| r[0]&.casecmp?(country) }                   then return restriction end
+  end
+
+  def check_authorize(request)
+    if req.present?
+      Barong::Authorize.new(request, params[:path])
+    end
   end
 
   # as a result gives complex Hash, { category: { scope: values, scope: values }, category: { scope: values, scope: values } }

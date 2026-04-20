@@ -14,5 +14,5 @@ rules:
     - api/v2/arke/public
     - api/v2/finex/public
     - api/v2/peatio/management
-  block:
     - api/v2/barong/management
+  block:

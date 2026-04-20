@@ -27,7 +27,7 @@ module Barong
     # main: switch between cookie and api key logic, return bearer token
     def auth
       auth_type = 'cookie'
-      auth_type = 'api_key' if api_key_headers?
+      auth_type = 'api_key' if headers['X-Auth-Apikey']
       auth_owner = method("#{auth_type}_owner").call
       'Bearer ' + codec.encode(auth_owner.as_payload) # encoded user info
     end
@@ -87,7 +87,7 @@ module Barong
     # api key validations
     def api_key_owner
       api_key = APIKeysVerifier.new(api_key_params)
-
+      api_key.present?
       # validate that nonce is a positive integer
       error!({ errors: ['authz.nonce_not_valid_timestamp'] }, 401) if api_key_params[:nonce].to_i <= 0
       # timestamp_window is a difference between server_time and nonce creation time
@@ -168,6 +168,15 @@ module Barong
       }
     end
 
+    # black/white list validation. takes ['block', 'pass'] as a parameter
+    def under_path_rules?(type)
+      return false if @rules[type].nil? # if no authz rules provided
+
+      @rules[type].each do |t|
+        return true if @path.starts_with?(t) # if request path is inside the rules list
+      end
+      false # default
+    end
 
     def remote_ip
       # default behaviour, IP from HTTP_X_FORWARDED_FOR
